@@ -20,6 +20,13 @@ public class BaseClass {
 		return driver;
 	}
 	
+	public static WebDriver openEdgeBrowser() {
+		System.setProperty("webdriver.edge.driver", "E:\\msedgedriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		return driver;
+	}
+
+	
 //	public static WebDriver openOperaBrowser() {
 //		System.setProperty("webdriver.opera.driver", "E:\\operadriver_win64\\operadriver.exe");
 //		WebDriver driver = new OperaDriver();
