@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite-OrangeHRM" thread-count="2" parallel="classes">
+  <test  name="ChromeBrowser">
+  <parameter name="browser" value="ChromeBrowser"/>
+    <classes>
+      <class name="verifyApp.VerifyApplicationHeader"/>
+
+    </classes>
+  </test> <!-- ChromeBrowser -->
+
+<test  name="FirefoxBrowser">
+  <parameter name = "browser" value="FirefoxBrowser"/>
+    <classes>
+      <class name="verifyApp.VerifyApplicationHeader"/>
+
+    </classes>
+  </test> <!-- Test -->
+  
+
+</suite> <!-- Suite-OrangeHRM -->
+   
