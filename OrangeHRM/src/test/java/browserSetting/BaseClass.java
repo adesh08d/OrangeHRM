@@ -2,6 +2,7 @@ package browserSetting;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 
@@ -22,7 +23,7 @@ public class BaseClass {
 	
 	public static WebDriver openEdgeBrowser() {
 		System.setProperty("webdriver.edge.driver", "E:\\msedgedriver.exe");
-		WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new EdgeDriver();
 		return driver;
 	}
 
