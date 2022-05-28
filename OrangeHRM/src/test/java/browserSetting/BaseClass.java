@@ -21,11 +21,11 @@ public class BaseClass {
 		return driver;
 	}
 	
-	public static WebDriver openEdgeBrowser() {
-		System.setProperty("webdriver.edge.driver", "E:\\msedgedriver.exe");
-		WebDriver driver = new EdgeDriver();
-		return driver;
-	}
+//	public static WebDriver openEdgeBrowser() {
+//		System.setProperty("webdriver.edge.driver", "E:\\msedgedriver.exe");
+//		WebDriver driver = new EdgeDriver();
+//		return driver;
+//	}
 
 	
 //	public static WebDriver openOperaBrowser() {
